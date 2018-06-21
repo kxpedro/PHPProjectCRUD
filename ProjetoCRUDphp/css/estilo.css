@@ -1,0 +1,19 @@
+table, td, th{
+    border:solid 1px #FFFFFF;
+    border-collapse: collapse;
+    text-align: center;  
+}
+th, tfoot{
+    background-color: #000000;
+    color:#FFFFFF;
+    font-weight: bold;
+}
+
+tbody:nth-child(even){
+    background-color:  #cccccc;
+}
+
+tbody tr:hover{
+    background-color: blue;
+    color: white;
+}
